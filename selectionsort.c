@@ -26,7 +26,7 @@ int main()
 	int *a,n,i;
 	FILE *f;
 	f=fopen("selsort.txt","a");
-	n=8;
+	n=8/4;
 	a=(int*)malloc(n*sizeof(int));
 	for(i=0;i<n;i++)
 	{
