@@ -26,8 +26,7 @@ int main()
 	int *a,n,i;
 	FILE *f;
 	f=fopen("selsort.txt","a");
-	printf("Enter array size: ");
-	scanf("%d",&n);
+	n=8;
 	a=(int*)malloc(n*sizeof(int));
 	for(i=0;i<n;i++)
 	{
